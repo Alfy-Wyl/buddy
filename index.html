@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MRI Buddy</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="assets/images/image 1.png" alt="MRI-Buddy Logo">
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              <li><a href="#Request Buddy">Request Buddy</a></li>
+              <li><a href="#About">About</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to MRI-Buddy</h1>
+            <p>The best place to learn everything about what your MRI scan entails.</p>
+            <button onclick="showDropdown()">Get Started</button>
+            <div id="dropdown" style="display:none">
+                <ul>
+                    <li><a href="#topic1">Topic 1</a></li>
+                    <li><a href="#topic2">Topic 2</a></li>
+                    <li><a href="#topic3">Topic 3</a></li>
+                    <li><a href="#topic4">Topic 4</a></li>
+                    <li><a href="#topic5">Topic 5</a></li>
+                    <li><a href="#topic6">Topic 6</a></li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section class="featured">
+            <div class="wrapper">
+                <div id="start-screen" class="start">
+                  <h2>MRI Questions Prior to Scan</h2>
+                  <p><strong>Scheduled for an MRI scan?</strong></p>
+                  <p><strong>Answer the questions with <span>YES/NO</span> to assess your suitability.</strong></p>
+                  <button id="start">Start</button>
+                </div>
+          
+                <div id="questions" class="hide">
+                  <h2 id="question-title"></h2>
+                  <div id="options" class="options"></div>
+                </div>
+            </div>
+
+            <h2>MRI Overview</h2>
+            <div class="grid">
+              <div class="card">
+                <img src="assets/images/mri scanner.png" alt="MRI Scanner">
+                <h3>What is MRI</h3>
+                <p>MRI stands for Magnetic Resonance Imaging. It is a medical imaging technique that uses a strong magnetic field and radio waves to generate detailed images of the inside of the body.</p>
+                <button>
+                    <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+              <div class="card">
+                <img src="assets/images/neck image.png" alt="MRI image">
+                <h3>How MRI Works</h3>
+                <p>The Magnetic Resonance Imaging (MRI) machine contains a powerful magnet that generates a strong magnetic field around the patient's body to produce detailed images of internal structures of the body.</p>
+                <button>
+                    <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+              <div class="card">
+                <img src="assets/images/pt prep.png" alt="Patient Preparation">
+                <h3>Preparing For Your Scan</h3>
+                <p>If you have an MRI appointment, there are a few things you can do to prepare for the procedure. MRI scans typically take between 30 and 60 minutes, depending on the area of the body being scanned.</p>
+                <button>
+                    <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>MRI Safety, Contrast & Claustrophobia </h2>
+            <div class="grid">
+              <div class="card">
+                <img src="assets/images/contrast.png" alt="MRI Contrast">
+                <h3>MRI Contrast Injection</h3>
+                <article>
+                  <p>Magnetic Resonance Imaging (MRI) contrast injection involves the use of a contrast agent to enhance the visibility of certain tissues and blood vessels during an MRI scan.</p>
+                </article>
+                <button>
+                  <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+              <div class="card">
+                <img src="assets/images/warning sign.png" alt="Warning Sign">
+                <h3>Patient Safety</h3>
+                <article>
+                  <p>MRI is generally considered a safe and non-invasive imaging technique. However, there are some safety concerns associated with the use of MRI, particularly for patients with implants or devices in their bodies.</p>
+                </article>
+                <button>
+                  <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+              <div class="card">
+                <img src="assets/images/claustrophobia.png" alt="claustrophobia">
+                <h3>Claustrophobia & Anxiety</h3>
+                <article>
+                  <p>MRI can be a stressful experience for some people, particularly those who suffer from claustrophobia or anxiety. Claustrophobia is the fear of enclosed or tight spaces, and some patients may feel anxious or uncomfortable in the narrow, enclosed space of an MRI scanner.</p>
+                </article>
+               
+                <button>
+                    <a href="#" class="btn btn-primary">Find Out More</a>
+                </button>
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2023 MRI-Buddy. All rights reserved.</p>
+        </div>  
+    </footer>     
+</body>
+</html>
